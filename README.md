@@ -51,7 +51,7 @@ def update_weights(weight, bias, dL_dw, dL_db, learning_rate):
     return weight, bias
 ```
 
-## Working
+# Working
 ### Forward Propagation:
 - Input data passes through the network layer by layer.
 - Outputs are computed using weights, biases, and activation functions.
