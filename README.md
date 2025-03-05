@@ -24,7 +24,7 @@ Normalizes inputs and actual outputs using Min-Max scaling to ensure numerical s
 ## Forward Pass:
 - Layer-by-layer computation with matrix multiplications.
 - ReLU activation to handle non-linearity.
-'''def hidden_layer(inputs, weights, bias):
+```def hidden_layer(inputs, weights, bias):
     output = np.dot(inputs, weights) + bias
     return np.maximum(0, output)  # ReLU Activation
-'''
+```
